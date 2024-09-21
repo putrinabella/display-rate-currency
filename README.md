@@ -33,7 +33,7 @@ Follow these steps to set up the project locally:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/putrinabella/currency-exchange-app.git
+   git clone https://github.com/putrinabella/display-rate-currency.git
    cd currency-exchange-app
    ```
 
