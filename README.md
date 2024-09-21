@@ -2,7 +2,7 @@
 
 ### Assignment Project: Display Rate Currency on Program Web Development + React Bootcamp IBM X Hacktiv8
 
-A web application that fetches and displays real-time currency exchange rates using the [Currency Freaks API](https://currencyfreaks.com/) with **React**, **Vue**, **Axios**, and **Tailwind CSS**. The application allows users to view exchange rates for selected currencies.
+A web application that fetches and displays real-time currency exchange rates using the [Currency Freaks API](https://currencyfreaks.com/) with **React**, **Vite**, **Axios**, and **Tailwind CSS**. The application allows users to view exchange rates for selected currencies.
 
 ## Table of Contents
 
@@ -15,13 +15,12 @@ A web application that fetches and displays real-time currency exchange rates us
 - Fetch real-time exchange rates for multiple currencies.
 - Display buy, sell, and exchange rates.
 - Responsive design using **Tailwind CSS**.
-- Fetch data via **Axios** and display it using a combination of **React JSX** and **Vue Components**.
+- Fetch data via **Axios** and display it using a combination of **React JSX**
 - Easy configuration using `.env` file for API key and URL.
 
 ## Tech Stack
 
 - **React** (JSX integration)
-- **Vue** (integrated into Vite project)
 - **Tailwind CSS** for responsive design
 - **Axios** for API requests
 - **Vite** for fast and optimized builds
