@@ -1,8 +1,63 @@
-# React + Vite
+# Currency Exchange Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Assignment Project: Display Rate Currency on Program Web Development + React Bootcamp IBM X Hacktiv8
 
-Currently, two official plugins are available:
+A web application that fetches and displays real-time currency exchange rates using the [Currency Freaks API](https://currencyfreaks.com/) with **React**, **Vue**, **Axios**, and **Tailwind CSS**. The application allows users to view exchange rates for selected currencies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+
+## Features
+
+- Fetch real-time exchange rates for multiple currencies.
+- Display buy, sell, and exchange rates.
+- Responsive design using **Tailwind CSS**.
+- Fetch data via **Axios** and display it using a combination of **React JSX** and **Vue Components**.
+- Easy configuration using `.env` file for API key and URL.
+
+## Tech Stack
+
+- **React** (JSX integration)
+- **Vue** (integrated into Vite project)
+- **Tailwind CSS** for responsive design
+- **Axios** for API requests
+- **Vite** for fast and optimized builds
+
+## Installation
+
+Follow these steps to set up the project locally:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/putrinabella/currency-exchange-app.git
+   cd currency-exchange-app
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Set up your environment variables:**
+
+   Rename the `.env.example` to `.env`
+
+   ```bash
+   VITE_API_URL=https://api.currencyfreaks.com/latest
+   VITE_API_KEY=your-api-key-here
+   ```
+
+   Replace `your-api-key-here` with your actual API key from Currency Freaks API.
+
+4. **Install dependencies:**
+
+   ```bash
+   npm run dev
+   ```
+
+   This will start the development server, and you can view the project by navigating to http://localhost:5173.
