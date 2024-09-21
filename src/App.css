@@ -1,0 +1,12 @@
+th {
+  background-color: #80af81;
+  color: white;
+}
+
+tr:hover {
+  background-color: #abcdac;
+}
+
+.my-green {
+  color: #80af81;
+}
