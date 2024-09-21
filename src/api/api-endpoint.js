@@ -1,12 +1,14 @@
 import axios from "axios";
 
-const apiKey = "8a7a36fd027246bd8214c6ced5b74579";
 const selectedCurrencies = ["CAD", "IDR", "JPY", "CHF", "EUR", "USD"];
 const order = ["CAD", "IDR", "JPY", "CHF", "EUR", "USD"]; // Desired order
 
 export const fetchCurrencyData = async () => {
     try {
-        const response = await axios.get(`https://api.currencyfreaks.com/latest?apikey=${apiKey}`);
+        const apiUrl = import.meta.env.VITE_API_URL;
+        const apiKey = import.meta.env.VITE_API_KEY;
+
+        const response = await axios.get(`${apiUrl}?apikey=${apiKey}`);
         const data = response.data.rates;
 
         const filteredData = Object.entries(data)
