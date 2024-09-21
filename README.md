@@ -34,7 +34,7 @@ Follow these steps to set up the project locally:
 
    ```bash
    git clone https://github.com/putrinabella/display-rate-currency.git
-   cd currency-exchange-app
+   cd display-rate-currency
    ```
 
 2. **Install dependencies:**
